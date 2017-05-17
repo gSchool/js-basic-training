@@ -1,5 +1,14 @@
 # Set Up
 
+Before working on the exercises in this repo you will need access to a text editor where you can write and run JavaScript.
+
+## Objectives
+
+By the time you complete this section you should be able to:
+
+- Describe what a text editor is
+- Use the online text editor [repl.it](https://repl.it/languages/babel)
+
 ## Using Text Editors to Write Code
 
 Most likely you are very familiar working with programs like email clients, and word processors where you are able to style your text with things like *italics* or **bolding** or for it to be `a different font`. When we wish to write code, be it in JavaScript, HTML, or any other programming language, we must use **plain text** only. **Plain text** is text that cannot be styled. It is characters and nothing else.
@@ -12,9 +21,9 @@ Aside from our thinking, and computers to run our code, text editors are the sin
 
 Text editors tend to be programs that you install on your computer, however, there are also text editors running as web applications online. Using online text editors can be very handy when there is not time to set up and install a text editor program on your computer, or, when wishing to share code easily with others.
 
-You will be able to work on any and all of the code in this repository by using the excellent online text editor [repl.it](https://repl.it/languages/babel). [repl.it](https://repl.it/languages/babel) provides syntax highlighting, access to 3rd party libraries, and a **console** which we will use extensively to inspect our code. We will be using [repl.it](https://repl.it/languages/babel) to write and run JavaScript, but as an aside, it can also be used to run and write code in almost all modern programming languages.
+You will be able to work on any and all of the code in this repository by using the excellent online text editor [repl.it](https://repl.it/languages/babel), which provides syntax highlighting, access to 3rd party libraries, and a **console** which we will use extensively to inspect our code. We will be using [repl.it](https://repl.it/languages/babel) to write and run JavaScript, but as an aside, it can also be used to run and write code in almost all modern programming languages.
 
-![image](https://cloud.githubusercontent.com/assets/7227245/26168321/7e4e9e50-3aee-11e7-81c4-ebb7961c9d29.png)
+![image](https://cloud.githubusercontent.com/assets/7227245/26168655/c1723b50-3aef-11e7-81a8-12285731c6a6.png)
 
 If you already have a text editor installed, and know how to run your code in a console, please feel free to use it. Otherwise please use [repl.it](https://repl.it/languages/babel) to write and run JavaScript code while working through this repository. [repl.it](https://repl.it/languages/babel) requires sign up, but is free, and you can even sign up using an already existing Google, GitHub, or Facebook account.
 
@@ -29,6 +38,6 @@ function printMessage(message) {
 }
 ```
 
-![image](https://cloud.githubusercontent.com/assets/7227245/26168372/b13d8092-3aee-11e7-970f-39cb45deccdf.png)
+![image](https://cloud.githubusercontent.com/assets/7227245/26168805/5051c6e2-3af0-11e7-8c96-fbb849f8c4ea.png)
 
 :star: Hover over the **run** button and notice that you are shown a keyboard shortcut for running the code. Run the code again, this time using the keyboard shortcut.
