@@ -13,6 +13,7 @@ By the time you complete this section you should be able to:
 
 - Speak accurately about **calling** and **invoking** functions
 - Speak accurately about **passing** functions **arguments**
+- Be able to **call** a function and pass it **arguments**
 
 ## Terminology for Using Functions
 
@@ -71,4 +72,14 @@ If we pass in more than one argument, `console.log` will print them all to the c
 console.log(1, 2, 3); // Calling this will result in `1 2 3` being logged to the developer console
 ```
 
-Admittedly, passing numbers into `console.log` is not going to take us very far, but before we can go into more interesting territory, we need to learn more about what it means to pass in a *number*. For that, and a bit more, please continue on to A Crash Course in JavaScript Types.
+Admittedly, passing numbers into `console.log` is not going to take us very far, but before we can go into more interesting territory, we need to learn more about what it means to pass in something that we consider a *number*, which leads to a discussion of JavaScript types. Up next is A Crash Course in JavaScript Types, after which we will return to more on the topic of calling functions.
+
+## Conclusion
+
+Assuming a function has been defined, either by us or other programmers, we can **call** it and perhaps even **pass** in **arguments** to affect its behavior.
+
+Before moving on to the next section make sure that you can:
+
+- Speak accurately about **calling** and **invoking** functions
+- Speak accurately about **passing** functions **arguments**
+- Be able to **call** a function and pass it **arguments**
