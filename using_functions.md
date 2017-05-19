@@ -152,4 +152,20 @@ console.log(25 / 4); // logs `6.25` to the console
 console.log(16 % 3); // logs `1` to the console
 ```
 
-There are also a set of comparison operators that act on values of the `number` type which result in the creation of a new value of the `boolean` type, to which we will now turn our attention.
+### Boolean
+
+**Values of the `boolean` type are one of two values: `true` or `false`.**
+
+The two values of the `boolean` type (`true` and `false`) are often created by using the following comparison operators:
+
+- `>` creates a new value of the `boolean` type depending on whether to value to the left of the operator is greater than that to the right
+- `<` creates a new value of the `boolean` type depending on whether to value to the left of the operator is less than that to the right
+- `>=` creates a new value of the `boolean` type depending on whether to value to the left of the operator is greater than or equal to that to the right
+- `<=` creates a new value of the `boolean` type depending on whether to value to the left of the operator is less than or equal to that to the right
+- `===` creates a new value of the `boolean` type depending on whether to value to the left of the operator is the same as that to the right
+- `!==` creates a new value of the `boolean` type depending on whether to value to the left of the operator is not the same as that to the right
+
+```javascript
+console.log(1 > 2); // logs `false` to the console
+console.log(60 < 160); // logs `true` to the console
+```
