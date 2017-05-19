@@ -49,7 +49,7 @@ In the real world we have different types of things to build with, and each of t
 
 ## The 7 JavaScript Types
 
-In JavaScript there are 7 types:
+**In JavaScript, every value is one (and exactly one) of 7 possible types**:
 
 - Number
 - Boolean
@@ -125,14 +125,14 @@ console.log(true === false); // logs `false`
 
 ## String
 
-**Values of the `string` type are intended to text values that should be read or spoken. Values of the `string` type are always surrounded by either single quotes `''`, double quotes `""`, or backticks <pre>``</pre>.**
+**Values of the `string` type are intended to represent text values that should be read or spoken by humans. Values of the `string` type are always surrounded by either single quotes `''`, double quotes `""`, or backticks <pre>``</pre>.**
 
 Given that our programs so frequently interact with humans, it only makes sense that we need a data type to represent the way humans interact with each other through language. In JavaScript (and in many other languges), this data type is called `string` as in **a string of characters.**
 
 ```javascript
-console.log('Hello'); // logs `'Hello'` to the console
-console.log('Hello you.'); // logs `Hello you.` to the console
-console.log('Someone said "I am worthy."'); // logs `Someone said "I am worthy"` to the console
+console.log('Hello');                                          // logs `'Hello'` to the console
+console.log('Hello you.');                                     // logs `Hello you.` to the console
+console.log('Someone said "I am worthy."');                    // logs `Someone said "I am worthy"` to the console
 console.log("It's realistic to expect learning to take time"); // logs `"It's realistic to expect learning to take time"` to the console
 ```
 
@@ -155,7 +155,7 @@ console.log('Me and ' + 'you... ' + 'your mama and your cousin too.') // logs `'
 
 ## Undefined
 
-**`undefined` is a type with exactly one value: `undefined`, which means, there is something here, but we do not presently know what it is**.
+**`undefined` is a type with exactly one value: `undefined`. The `undefined` value signifies that there is something here, but we do not presently know what it is**.
 
 `undefined` is like that currently-unoccupied storefront with a lease sign out in front of it downtown: there's something there, but we don't know what it actually is at this point in time.
 
@@ -169,7 +169,7 @@ console.log(undefined === 'undefined'); // logs `false` to the console
 
 ## Null
 
-**`null` is a type with exactly one value: `null`, which means, there is nothing here.**
+**`null` is a type with exactly one value: `null`, which signifies there is nothing here.**
 
 While `undefined` states that there is not something here *presently*, it implies that there might be something here at some point in time. `null` is intended to express **absolutely nothing at all** as in the set of giraffes that have been known to fly to the moon is `null`.
 
@@ -189,7 +189,7 @@ In JavaScript, values of the `object` type are a big and rather complicated deal
 console.log({} === {}); logs `false` to the console since every value of the type `object` is distinct and unique
 ```
 
-It turns out that functions are in fact values of the `object` type, as are arrays, sets, and maps (which we have not talked about at all). We will not, at this present time, be covering values of the `object` type in any further detail, though you can rest assured you will learn a *ton* about them in your pursuit of programming greatness.
+It turns out that functions are in fact values of the `object` type, as are arrays, sets, and maps (which we have not talked about at all yet). We will not, at this present time, be covering values of the `object` type in any further detail, though later in this content we will talk about **arrays** which are a certain kind of object, and, you can rest assured you will learn a *ton* about objects in your pursuit of programming greatness.
 
 ## Symbol
 
@@ -198,6 +198,8 @@ Symbols were added to the JavaScript language in 2015 largely as a way to add ne
 ## Conclusion
 
 JavaScript values can are always one of seven types, and depending on their type, have specific ways that they can be utilized. This short section served as a crash course to the JavaScript types, focusing on some simple operations available on values of the types `number`, `string`, and `boolean`.
+
+Having exposure now to values of different types and how to perform basic operations on them, we will return to our discussion of calling functions.
 
 Before proceeding you should be able to:
 
