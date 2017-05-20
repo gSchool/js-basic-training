@@ -90,6 +90,7 @@ Before moving on to the next section make sure that you can:
 
 - [Introduction](../README.md)
 - [JavaScript and Modern Web Development](modern_web_development.md)
+- [Dev Environment Setup](setup.md)
 - [Introduction to Functions](intro_to_javascript_functions.md)
 - *Basic Use of Functions*
 - [Functions that Make Values](functions_that_make_values.md)

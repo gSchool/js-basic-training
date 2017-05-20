@@ -110,6 +110,7 @@ Before proceeding you should be comfortable with the ideas that:
 
 - [Introduction](../README.md)
 - [JavaScript and Modern Web Development](modern_web_development.md)
+- [Dev Environment Setup](setup.md)
 - *Introduction to Functions*
 - [Basic Use of Functions](basic_use_of_functions.md)
 - [Functions that Make Values](functions_that_make_values.md)

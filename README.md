@@ -26,6 +26,7 @@ Additionally, this modules contains two advanced resources should you wish to le
 
 - *Introduction*
 - [JavaScript and Modern Web Development](markdown/modern_web_development.md)
+- [Dev Environment Setup](markdown/setup.md)
 - [Introduction to Functions](markdown/intro_to_javascript_functions.md)
 - [Basic Use of Functions](markdown/basic_use_of_functions.md)
 - [Functions that Make Values](markdown/functions_that_make_values.md)

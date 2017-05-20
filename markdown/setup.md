@@ -41,3 +41,30 @@ function printMessage(message) {
 ![image](https://cloud.githubusercontent.com/assets/7227245/26168805/5051c6e2-3af0-11e7-8c96-fbb849f8c4ea.png)
 
 :star: Hover over the **run** button and notice that you are shown a keyboard shortcut for running the code. Run the code again, this time using the keyboard shortcut.
+
+## Table of Contents
+
+### Basic Training Materials
+
+- [Introduction](../README.md)
+- [JavaScript and Modern Web Development](modern_web_development.md)
+- *Dev Environment Setup*
+- [Introduction to Functions](intro_to_javascript_functions.md)
+- [Basic Use of Functions](basic_use_of_functions.md)
+- [Functions that Make Values](functions_that_make_values.md)
+- [JavaScript Types Crash Course](type_crash_course.md)
+- [Variables](variables.md)
+- [String Methods](string_methods.md)
+- [Introduction to Arrays](intro_to_arrays.md)
+- [Defining Functions](defining_functions.md)
+- [Leveraging Multiple Functions](leveraging_multiple_functions.md)
+- [Next Steps](next_steps.md)
+
+### Advanced Content
+
+- [Passing Functions as Arguments](passing_functions_as_arguments.md)
+- [Higher Order Array Methods](higher_order_array_methods.md)
+
+### Appendix
+
+- [Reference and Further Study](reference.md)
