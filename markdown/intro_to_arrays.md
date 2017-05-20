@@ -217,6 +217,7 @@ Before continuing be sure that you can:
 
 - [Introduction](../README.md)
 - [JavaScript and Modern Web Development](modern_web_development.md)
+- [Introduction to Functions](intro_to_javascript_functions.md)
 - [Basic Use of Functions](basic_use_of_functions.md)
 - [Functions that Make Values](functions_that_make_values.md)
 - [JavaScript Types Crash Course](type_crash_course.md)

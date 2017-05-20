@@ -5,6 +5,7 @@
 By the time you complete this module you will be able to:
 
 - Understand how JavaScript fits into modern web development
+- Understand what a function is
 - Use built in JavaScript functions
 - Use built in JavaScript functions to return values
 - Discuss the different kinds of JavaScript Types
@@ -25,6 +26,7 @@ Additionally, this modules contains two advanced resources should you wish to le
 
 - *Introduction*
 - [JavaScript and Modern Web Development](markdown/modern_web_development.md)
+- [Introduction to Functions](markdown/intro_to_javascript_functions.md)
 - [Basic Use of Functions](markdown/basic_use_of_functions.md)
 - [Functions that Make Values](markdown/functions_that_make_values.md)
 - [JavaScript Types Crash Course](markdown/type_crash_course.md)
