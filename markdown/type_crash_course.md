@@ -217,8 +217,8 @@ Before proceeding you should be able to:
 - [Dev Environment Setup](setup.md)
 - [Introduction to Functions](intro_to_javascript_functions.md)
 - [Basic Use of Functions](basic_use_of_functions.md)
-- [Functions that Make Values](functions_that_make_values.md)
 - *JavaScript Types Crash Course*
+- [Functions that Make Values](functions_that_make_values.md)
 - [Variables](variables.md)
 - [String Methods](string_methods.md)
 - [Introduction to Arrays](intro_to_arrays.md)

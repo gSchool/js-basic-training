@@ -31,7 +31,6 @@ Additionally, this modules contains two advanced resources should you wish to le
 - [Basic Use of Functions](markdown/basic_use_of_functions.md)
 - [JavaScript Types Crash Course](markdown/type_crash_course.md)
 - [Functions that Make Values](markdown/functions_that_make_values.md)
-- [JavaScript Types Crash Course](markdown/type_crash_course.md)
 - [Variables](markdown/variables.md)
 - [String Methods](markdown/string_methods.md)
 - [Introduction to Arrays](markdown/intro_to_arrays.md)
