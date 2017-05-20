@@ -24,15 +24,15 @@ Up until this point in time we have talked about "using" functions, but in fact 
 
 Thus the following statements are all true about the next block of code:
 
-- We are **calling** the `eat` function and then **calling** `drink`
-- We are **invoking** `eat` and then **invoking** `drink`
-- Here we see the `eat` function being **invoked** before **calling** `drink`
-- Here we see 2 function **invocations**, one to `eat` and one to `drink`
-
 ```javascript
 eat();
 drink();
 ```
+
+- We are **calling** the `eat` function and then **calling** `drink`
+- We are **invoking** `eat` and then **invoking** `drink`
+- Here we see the `eat` function being **invoked** before **calling** `drink`
+- Here we see 2 function **invocations**, one to `eat` and one to `drink`
 
 > It is worth noting that each of these function calls end with a semicolon `;`. You can think of semicolons in JavaScript as the equivalent to periods in English: they are inteded to signify the end of "a sentence". These semicolons are in fact optional, and there are some rather obscure reasons why you might or might not choose to use them which frankly aren't really worth getting into. Rather than describe all the specifics of how to use them, we will include them throughout our code here and you will learn via immersion when and how to use them in your own code, which you should do until a much later period of time when you understand the implications of not using them.
 
