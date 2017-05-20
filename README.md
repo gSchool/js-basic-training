@@ -37,4 +37,9 @@ Additionally, this modules contains two advanced resources should you wish to le
 
 ### Advanced Content
 
+- [Passing Functions as Arguments](markdown/passing_functions_as_arguments.md)
+- [Higher Order Array Methods](markdown/higher_order_array_methods.md)
+
 ### Appendix
+
+- [Reference and Further Study](markdown/reference.md)
