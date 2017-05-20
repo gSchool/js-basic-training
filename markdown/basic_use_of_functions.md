@@ -40,17 +40,17 @@ Previously we have talked about "giving functions things to affect their behavio
 
 Thus the following statements are all true about the next block of code. Fluency with the technical jargon often results in leaving out some of the terms altogether:
 
-- On the first line we call the `drink` function, **passing** `coffee` to it as its only **argument**
-- When we call `cleanUp` we do not **pass** it any **arguments**
-- First we call `drink` with the `coffee` **argument**, and then with `tea`
-- Here we call `drink` with `coffee` and then with `tea`
-- We are not calling `cleanUp` with anything
-
 ```javascript
 drink(coffee);
 drink(tea);
 cleanUp();
 ```
+
+- On the first line we call the `drink` function, **passing** `coffee` to it as its only **argument**
+- When we call `cleanUp` we do not **pass** it any **arguments**
+- First we call `drink` with the `coffee` **argument**, and then with `tea`
+- Here we call `drink` with `coffee` and then with `tea`
+- We are not calling `cleanUp` with anything
 
 ## Calling Already Defined Functions
 
