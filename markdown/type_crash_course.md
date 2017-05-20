@@ -186,7 +186,7 @@ console.log(null === 'null');    // logs `false` to the console
 In JavaScript, values of the `object` type are a big and rather complicated deal. Values of the `object` type can (for the most part) be recognized by their opening and closing curly braces: `{}`. They are fundamentally different from the other data types we have seen thus far, to a large degree because every value of the `object` type, even if it looks the same, is in fact a unique value, thus:
 
 ```javascript
-console.log({} === {}); logs `false` to the console since every value of the type `object` is distinct and unique
+console.log({} === {}); // logs `false` to the console since every value of the type `object` is distinct and unique
 ```
 
 It turns out that functions are in fact values of the `object` type, as are arrays, sets, and maps (which we have not talked about at all yet). We will not, at this present time, be covering values of the `object` type in any further detail, though later in this content we will talk about **arrays** which are a certain kind of object, and, you can rest assured you will learn a *ton* about objects in your pursuit of programming greatness.
