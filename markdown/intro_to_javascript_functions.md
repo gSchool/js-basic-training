@@ -113,6 +113,7 @@ Before proceeding you should be comfortable with the ideas that:
 - [Dev Environment Setup](setup.md)
 - *Introduction to Functions*
 - [Basic Use of Functions](basic_use_of_functions.md)
+- [JavaScript Types Crash Course](type_crash_course.md)
 - [Functions that Make Values](functions_that_make_values.md)
 - [JavaScript Types Crash Course](type_crash_course.md)
 - [Variables](variables.md)

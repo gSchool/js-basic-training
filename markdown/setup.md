@@ -51,6 +51,7 @@ function printMessage(message) {
 - *Dev Environment Setup*
 - [Introduction to Functions](intro_to_javascript_functions.md)
 - [Basic Use of Functions](basic_use_of_functions.md)
+- [JavaScript Types Crash Course](type_crash_course.md)
 - [Functions that Make Values](functions_that_make_values.md)
 - [JavaScript Types Crash Course](type_crash_course.md)
 - [Variables](variables.md)

@@ -29,6 +29,7 @@ Additionally, this modules contains two advanced resources should you wish to le
 - [Dev Environment Setup](markdown/setup.md)
 - [Introduction to Functions](markdown/intro_to_javascript_functions.md)
 - [Basic Use of Functions](markdown/basic_use_of_functions.md)
+- [JavaScript Types Crash Course](markdown/type_crash_course.md)
 - [Functions that Make Values](markdown/functions_that_make_values.md)
 - [JavaScript Types Crash Course](markdown/type_crash_course.md)
 - [Variables](markdown/variables.md)
