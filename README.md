@@ -21,6 +21,8 @@ Additionally, this modules contains two advanced resources should you wish to le
 
 ## Contents
 
+### Basic Training Materials
+
 - *Introduction*
 - [JavaScript and Modern Web Development](markdown/modern_web_development.md)
 - [Basic Use of Functions](markdown/basic_use_of_functions.md)
@@ -32,3 +34,7 @@ Additionally, this modules contains two advanced resources should you wish to le
 - [Defining Functions](markdown/defining_functions.md)
 - [Leveraging Multiple Functions](markdown/leveraging_multiple_functions.md)
 - [Next Steps](markdown/next_steps.md)
+
+### Advanced Content
+
+### Appendix
