@@ -4,6 +4,14 @@ In JavaScript, a variable stores a value of any type so that we can use it later
 
 ## Objectives
 
+By the time you complete this section you should be able to:
+
+- Declare variables
+- Assign values to variables
+- Assign values returned from functions to variables
+- Reassign new values to variables
+- Assign values already stored in variables to other values
+
 ## Declaring Variables
 
 **In JavaScript, a variable stores a value of any type so that we can use it later in our program. In order to use a variable we must ffirst _declare_ it, after which we can _assign_ a value to it.**
@@ -102,4 +110,68 @@ But probably you will agree this last section of code is not so nice. Over time 
 
 ## Reassigning Values to Variables
 
-Once you 
+**Variables that have already been assigned values can be assigned new values.** You can think of this as analogous to taking something out of a labeled box and putting something different in it.
+
+```javascript
+let name = 'Rowan';
+console.log(name); // logs 'Rowan' to the console
+
+name = 'Ro';       // <--- Assigning a new value to the variable
+console.log(name); // logs 'Ro' to the console
+```
+
+An exception to this rule is if you declare your variable with the `const` keyword, which will make the variable **read only**.
+
+```
+const name = 'Rowan';
+name = 'Ro' // This will cause your code to throw an error
+```
+
+**Variable names are chosen by programmers and we can only hope that they accurately describe the value assigned to the variable. Watch out.**
+
+```javascript
+let name = 8;
+let food = 'staircase';
+let theTruth = false;
+let big = 0;
+big = 'small';
+big = null;
+big = food;
+```
+
+## Assigning Variable Values to Other Variables
+
+**We can assign values stored in one variable to another variable.**
+
+The results of doing this vary depending on which type the value is. For the purposes of this section, we will speak about values of the types `string`, `number`, `boolean`, `undefined` and `null` (that is, values that are not of the `object` type).
+
+Assigning a variable value to another value is like saying "Give me something identical to whatever is in that box so I can put that identical copy in this new box." This means that after assigning a variable value to another variable, reassigning one of the variables does not affect the other, in the same way that opening up one of our two boxes doesn't affect the other box at all. Thus:
+
+```javascript
+let aNumber = 3;
+let anotherNumber = aNumber;
+
+console.log(aNumber);                   // logs `3` to the console
+console.log(anotherNumber);             // logs `3` to the console
+console.log(aNumber === anotherNumber); // logs `true` to the console
+
+aNumber = 5;
+
+console.log(aNumber);                   // logs `5` to the console
+console.log(anotherNumber);             // logs `3` to the console
+console.log(aNumber === anotherNumber); // logs `false` to the console
+```
+
+## Conclusion
+
+A value of any type can be assigned to a variable, which acts like a labeled box, containing that value. This included values that are returned from functions, values that are created from operations like, and values that are already stored in other variables.
+
+Now that we know how to store values in variables, we will return to our discussion of calling functions, focusing on a set of built in functions that operate directly on values.
+
+Before continuing, be sure that you can:
+
+- Declare variables
+- Assign values to variables
+- Assign values returned from functions to variables
+- Reassign new values to variables
+- Assign values already stored in variables to other values
