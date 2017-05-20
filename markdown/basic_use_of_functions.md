@@ -72,7 +72,7 @@ If we pass in more than one argument, `console.log` will print them all to the c
 console.log(1, 2, 3); // Calling this will result in `1 2 3` being logged to the developer console
 ```
 
-Admittedly, passing numbers into `console.log` is not going to take us very far, but before we can go into more interesting territory, we need to learn more about what it means to pass in something that we consider a *number*, which leads to a discussion of JavaScript types. Up next is A Crash Course in JavaScript Types, after which we will return to more on the topic of calling functions.
+Admittedly, passing numbers into `console.log` is not going to take us very far, but before we can go into more interesting territory, we need to learn more about what it means to pass in something that we consider a *number*, which leads to a discussion of JavaScript types. Up next is A [Crash Course in JavaScript Types](type_crash_course.md), after which we will return to more on the topic of calling functions.
 
 ## Conclusion
 
