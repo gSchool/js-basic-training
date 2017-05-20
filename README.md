@@ -19,7 +19,7 @@ Additionally, this modules contains two advanced resources should you wish to le
 - Write higher order JavaScript functions
 - Master the use of the higher order array methods `forEach`, `map`, `filter`, and `reduce`
 
-## Contents
+## Table of Contents
 
 ### Basic Training Materials
 

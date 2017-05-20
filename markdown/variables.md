@@ -175,3 +175,28 @@ Before continuing, be sure that you can:
 - Assign values returned from functions to variables
 - Reassign new values to variables
 - Assign values already stored in variables to other values
+
+## Table of Contents
+
+### Basic Training Materials
+
+- [Introduction](../README.md)
+- [JavaScript and Modern Web Development](modern_web_development.md)
+- [Basic Use of Functions](basic_use_of_functions.md)
+- [Functions that Make Values](functions_that_make_values.md)
+- [JavaScript Types Crash Course](type_crash_course.md)
+- *Variables*
+- [String Methods](string_methods.md)
+- [Introduction to Arrays](intro_to_arrays.md)
+- [Defining Functions](defining_functions.md)
+- [Leveraging Multiple Functions](leveraging_multiple_functions.md)
+- [Next Steps](next_steps.md)
+
+### Advanced Content
+
+- [Passing Functions as Arguments](passing_functions_as_arguments.md)
+- [Higher Order Array Methods](higher_order_array_methods.md)
+
+### Appendix
+
+- [Reference and Further Study](reference.md)

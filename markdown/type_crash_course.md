@@ -206,3 +206,29 @@ Before proceeding you should be able to:
 - Understand that values of different types can be used to do different kinds of operations
 - Be able to identify values of the `number`, `string`, `boolean`, `undefined`, and `null` types
 - Be able to perform basic operations on values of the `number`, `string`, and `boolean` types
+
+
+## Table of Contents
+
+### Basic Training Materials
+
+- [Introduction](../README.md)
+- [JavaScript and Modern Web Development](modern_web_development.md)
+- [Basic Use of Functions](basic_use_of_functions.md)
+- [Functions that Make Values](functions_that_make_values.md)
+- *JavaScript Types Crash Course*
+- [Variables](variables.md)
+- [String Methods](string_methods.md)
+- [Introduction to Arrays](intro_to_arrays.md)
+- [Defining Functions](defining_functions.md)
+- [Leveraging Multiple Functions](leveraging_multiple_functions.md)
+- [Next Steps](next_steps.md)
+
+### Advanced Content
+
+- [Passing Functions as Arguments](passing_functions_as_arguments.md)
+- [Higher Order Array Methods](higher_order_array_methods.md)
+
+### Appendix
+
+- [Reference and Further Study](reference.md)

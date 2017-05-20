@@ -83,3 +83,28 @@ Before moving on to the next section make sure that you can:
 - Speak accurately about **calling** and **invoking** functions
 - Speak accurately about **passing** functions **arguments**
 - Be able to **call** a function and pass it **arguments**
+
+## Table of Contents
+
+### Basic Training Materials
+
+- [Introduction](../README.md)
+- [JavaScript and Modern Web Development](modern_web_development.md)
+- *Basic Use of Functions*
+- [Functions that Make Values](functions_that_make_values.md)
+- [JavaScript Types Crash Course](type_crash_course.md)
+- [Variables](variables.md)
+- [String Methods](string_methods.md)
+- [Introduction to Arrays](intro_to_arrays.md)
+- [Defining Functions](defining_functions.md)
+- [Leveraging Multiple Functions](leveraging_multiple_functions.md)
+- [Next Steps](next_steps.md)
+
+### Advanced Content
+
+- [Passing Functions as Arguments](passing_functions_as_arguments.md)
+- [Higher Order Array Methods](higher_order_array_methods.md)
+
+### Appendix
+
+- [Reference and Further Study](reference.md)
