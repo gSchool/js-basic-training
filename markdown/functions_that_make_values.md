@@ -1,6 +1,6 @@
 # Functions that Make Values
 
-As discussed earlier, while all functions **do** something, calling functions can also result in that funciton **making** something new.
+As discussed earlier, while all functions **do** something, calling functions can also result in that function **making** something new.
 
 ## Objectives
 
@@ -23,14 +23,14 @@ console.log(typeof(8));                   // logs `'number'` to the console
 console.log(typeof('gimme a new value')); // logs `'string'` to the console
 console.log(typeof(true));                // logs `'boolean'` to the console
 console.log(typeof(undefined));           // logs `'undefined'` to the console
-console.log(typeof(null));                // logs `'null'` to the console
+console.log(typeof(null));                // logs `'object'` to the console
 ```
 
 ## All Functions Return New Values
 
 **In JavaScript, all functions return a new value when called. When programmers create functions that they don't intend to return a new value, that function will return `undefined`. Returned values, like any value, can be passed into functions.**
 
-One such function that is not intended to return a new value is `console.log`, however, since **every function call in JavaScript returns a value**, we should not be surpised to see that `console.log` returns `undefined`. Here we call `console.log`, passing its newly created return value into `console.log`.
+One such function that is not intended to return a new value is `console.log`, however, since **every function call in JavaScript returns a value**, we should not be surprised to see that `console.log` returns `undefined`. Here we call `console.log`, passing its newly created return value into `console.log`.
 
 ```javascript
 console.log(console.log()) // logs `'undefined'` to the console

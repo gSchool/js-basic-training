@@ -11,7 +11,7 @@ By the end of this lesson you will be able to:
 
 ## Modern Web Applications
 
-The web has come an exceptionally long way since its inception. Originally intented to be a way for people to share static files with each other over remote locations, the web now contains incredibly sophisticated programs capable of much more. On the web, users can now play games with thousands of other people, make incredibly sensitive financial transactions, watch movies, video conference with dozens of other people, and much more. These web applications need to:
+The web has come an exceptionally long way since its inception. Originally intended to be a way for people to share static files with each other over remote locations, the web now contains incredibly sophisticated programs capable of much more. On the web, users can now play games with thousands of other people, make incredibly sensitive financial transactions, watch movies, video conference with dozens of other people, and much more. These web applications need to:
 
 - Handle tremendous amounts of traffic
 - Be aesthetically pleasing
@@ -26,7 +26,7 @@ The web has come an exceptionally long way since its inception. Originally inten
 
 So, what is going on behind that web page you're looking at through your browser? When you enter a web address into your browser and hit enter:
 
-- The web browser (a program on your computer) asks your computer to send some **request** data, using an agreed upon format called the **HTTP protocol**, to a program running at the address that you entered into the browser. The address contains the location of a specific computer, and, a specific program on that computer. This program (and also sometimes the computer that it is running on) is refered to as a **server**, while the web browser, which is sending a request to the **server** is refered to as a **client**.
+- The web browser (a program on your computer) asks your computer to send some **request** data, using an agreed upon format called the **HTTP protocol**, to a program running at the address that you entered into the browser. The address contains the location of a specific computer, and, a specific program on that computer. This program (and also sometimes the computer that it is running on) is referred to as a **server**, while the web browser, which is sending a request to the **server** is referred to as a **client**.
 - Your computer converts the client request from the browser into zeroes and ones and sends it to a sophisticated network of programs, scattered all throughout the world, that work to deliver the request data to the server running at the given address.
 - The server, depending on the information in the request, builds up and sends back a **response** to the client (the web browser on your computer in this example). This initial response tends to be an HTML page.
   - Most likely the server also interacts with other programs to store information from the request, retrieve information to be sent back in the response, log information about what is happening, and send information to other programs for analysis.
@@ -45,7 +45,7 @@ Both CSS and HTML are still present in practically all web pages.
 
 JavaScript was the next language written specifically for web browsers, the Netscape browser specifically. Mostly on account of market dynamics and then later, precedence, it remains to this day the only language in addition to HTML and CSS that browsers can read. If for no other reason than this, JavaScript is absolutely central to web development.
 
-While HTML and CSS both allow programmers to make statements about what a web page should *look like*, JavaScript allows programmers to make statements about what web pages should *do*. Over the last several decades developers have pushed this concept of making web pages *do* things to unforseen extremes, and will surely continue to do so.
+While HTML and CSS both allow programmers to make statements about what a web page should *look like*, JavaScript allows programmers to make statements about what web pages should *do*. Over the last several decades developers have pushed this concept of making web pages *do* things to unforeseen extremes, and will surely continue to do so.
 
 For a long time, and to some degree this still holds true, JavaScript was viewed as a rather easy language to learn, and not as "sophisticated" as some other languages that interacted more directly with a computer's hardware. The fact that it was restrained to being run inside of browsers exasperated this sentiment. In the last 10 years however (2009 in fact) a project was completed that allowed JavaScript to be run outside of browsers. This project was called *NodeJS*. NodeJS opened the door for all kinds of computer programs to be written in JavaScript, most notably, web servers interacting with client-side JavaScript applications. This was largely done so that companies could hire a single developer to work on both the "front-end" (client side) and "back end" (server side) of web applications, even if the developer "only" knew JavaScript.
 

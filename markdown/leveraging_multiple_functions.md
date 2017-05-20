@@ -11,9 +11,9 @@ By the end of this section you should be able to:
 
 ## The Power of Wishful Thinking
 
-This author feels very strongly that you should aim to write code that reads like English. Assuming that functions are like verbs, and that variables can stand in for noun like values, it is oftentimes an excellent strategy to simply write out a series of function calls reflecting what you wish to do, even if those functions do not yet exist, and then, go back and write the function defintions to accomplish what you are wishing for. A fluency with built in functions and methods available to you tends to facilitate this process.
+This author feels very strongly that you should aim to write code that reads like English. Assuming that functions are like verbs, and that variables can stand in for noun like values, it is oftentimes an excellent strategy to simply write out a series of function calls reflecting what you wish to do, even if those functions do not yet exist, and then, go back and write the function definitions to accomplish what you are wishing for. A fluency with built in functions and methods available to you tends to facilitate this process.
 
-As an example, imagine that we need to find out if the second word in the sentece contains a certain letter. We can start solving this problem by simply imagining that we have the function we would wish for to solve the problem:
+As an example, imagine that we need to find out if the second word in the sentence contains a certain letter. We can start solving this problem by simply imagining that we have the function we would wish for to solve the problem:
 
 ```javascript
 let sentence = 'This is a sentence';
