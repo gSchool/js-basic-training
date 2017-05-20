@@ -84,8 +84,8 @@ console.log(typeof(String(Math.max(0, 3, 1))) === typeof('number'));
 Here's a refactor that makes some variable assignements to make the code easier to read and reason about:
 
 ```javascript
-let largestNumber = math.max(0, 3, 1);
-let largestNumberString = string(largestNumber);
+let largestNumber = Math.max(0, 3, 1);
+let largestNumberString = String(largestNumber);
 
 console.log(typeof(largestNumberString) === typeof('number')); // logs `true` to the console
 ```
