@@ -45,9 +45,9 @@ The string methods `startsWith`, `endsWith`, and `includes` all return a value o
 ```javascript
 let name = 'Rowan';
 
-name.startsWith('R'); // logs `true` to the console
-name.endsWith('n');   // logs `true` to the console
-name.includes('o');   // logs `true` to the console
+console.log(name.startsWith('R')); // logs `true` to the console
+console.log(name.endsWith('n'));   // logs `true` to the console
+console.log(name.includes('o'));   // logs `true` to the console
 ```
 
 ## String Methods: `indexOf` and `lastIndexOf`

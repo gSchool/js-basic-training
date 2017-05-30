@@ -190,7 +190,7 @@ Here is another example where we utilize the string method `toUpperCase` that is
 let states = ['ca', 'ny', 'or'];
 let upperCaseStates = states.join(' ').toUpperCase().split(' ');
 
-console.oog(states); // logs `['CA', 'NY', 'OR']` to the console
+console.log(states); // logs `['CA', 'NY', 'OR']` to the console
 ```
 
 ## Many More Array Methods

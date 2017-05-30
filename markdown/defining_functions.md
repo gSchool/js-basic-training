@@ -50,7 +50,7 @@ A second way we can define functions is to use a **function expression** which o
 ```javascript
 let doNothing = function() {};
 
-console.log(donothing()); // logs `undefined` to the console
+console.log(doNothing()); // logs `undefined` to the console
 ```
 
 ## Arrow Function Expression Syntax
@@ -60,8 +60,8 @@ A third way we can define functions is using the arrow function expression synta
 ```javascript
 let doNothing = () => {}
 
-console.log(typeof(donothing));   // logs `function` to the console
-console.log(typeof(donothing())); // logs `undefined` to the console
+console.log(typeof(doNothing));   // logs `function` to the console
+console.log(typeof(doNothing())); // logs `undefined` to the console
 ```
 
 ## Function Defintions vs. Function Calls
