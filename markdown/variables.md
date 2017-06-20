@@ -14,7 +14,7 @@ By the time you complete this section you should be able to:
 
 ## Declaring Variables
 
-**In JavaScript, a variable stores a value of any type so that we can use it later in our program. In order to use a variable we must ffirst _declare_ it, after which we can _assign_ a value to it.**
+**In JavaScript, a variable stores a value of any type so that we can use it later in our program. In order to use a variable we must first _declare_ it, after which we can _assign_ a value to it.**
 
 In order to **declare** a variable in JavaScript, we use the `let` keyword, followed by the name we would like to give to the variable. In this example we declare a new variable called `name`:
 
@@ -81,7 +81,7 @@ Storing returned values can be helpful in making our code easy to read and reaso
 console.log(typeof(String(Math.max(0, 3, 1))) === typeof('number'));
 ```
 
-Here's a refactor that makes some variable assignements to make the code easier to read and reason about:
+Here's a refactor that makes some variable assignments to make the code easier to read and reason about:
 
 ```javascript
 let largestNumber = Math.max(0, 3, 1);
@@ -104,7 +104,7 @@ let typeofSomeStringIsEqualTotypeofLargestNumberString = typofSomeString === typ
 console.log(typeofSomeStringIsEqualTotypeofLargestNumberString); // logs `true` to the console
 ```
 
-But probably you will agree this last section of code is not so nice. Over time you will develop a keen sense for when to use variables and when not to based on personal experience. In the meantime, this author recommends you aim to write code that reads like English, which means, using descriptive variable names more often than not.
+But you will probably agree that this last section of code is not so nice. Over time you will develop a keen sense for when to use variables and when not to based on personal experience. In the meantime, this author recommends you aim to write code that reads like English, which means, using descriptive variable names more often than not.
 
 > Don't make the mistake of thinking that short variable names saves you time or makes your code run faster, it doesn't. Cryptic code will cost everyone dearly who has to come back and figure out what your code is doing later. While it is fun at times to write the most dense and elegant solution, **legible is better than clever.**
 
@@ -122,7 +122,7 @@ console.log(name); // logs 'Ro' to the console
 
 An exception to this rule is if you declare your variable with the `const` keyword, which will make the variable **read only**.
 
-```
+```javascript
 const name = 'Rowan';
 name = 'Ro' // This will cause your code to throw an error
 ```
@@ -138,6 +138,8 @@ big = 'small';
 big = null;
 big = food;
 ```
+
+This brings us to an important truth about computer programs. The computer **does not know anything about your intent**. It will always do **exactly what you told it to do** even if you meant to tell it something else. This is a common source of bugs and frustration, even for skilled programmers.
 
 ## Assigning Variable Values to Other Variables
 
@@ -155,7 +157,7 @@ console.log(aNumber);                   // logs `3` to the console
 console.log(anotherNumber);             // logs `3` to the console
 console.log(aNumber === anotherNumber); // logs `true` to the console
 
-aNumber = 5;
+aNumber = 5; // Think of this as: take 3 out of this box, and put 5 into the box instead. 
 
 console.log(aNumber);                   // logs `5` to the console
 console.log(anotherNumber);             // logs `3` to the console

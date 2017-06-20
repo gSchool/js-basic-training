@@ -1,8 +1,8 @@
 # A Crash Course in JavaScript Types
 
-In most programming languages, JavaScript amongst them, programmers have at their disposal different kinds (or **types**) of values that they can utilize in their programs.
+In most programming languages, JavaScript amongst them, programmers have at their disposal different kinds (or **types**) of values that they can utilize in their programs. These are also commonly called **data types**.
 
-## Objectives
+## Objectives   
 
 By the end of this section you should be able to:
 
@@ -118,7 +118,6 @@ console.log(42 <= 42);       // logs `true` to the console
 console.log(9 === 9);        // logs `true` to the console
 console.log(4 !== 40);       // logs `true` to the console
 console.log(7 !== 7);        // logs `false` to the console
-console.log(7 !== 7);        // logs `false` to the console
 console.log(true === true);  // logs `true`
 console.log(true === false); // logs `false`
 ```
@@ -127,7 +126,7 @@ console.log(true === false); // logs `false`
 
 **Values of the `string` type are intended to represent text values that should be read or spoken by humans. Values of the `string` type are always surrounded by either single quotes `''`, double quotes `""`, or backticks ``.**
 
-Given that our programs so frequently interact with humans, it only makes sense that we need a data type to represent the way humans interact with each other through language. In JavaScript (and in many other languges), this data type is called `string` as in **a string of characters.**
+Given that our programs so frequently interact with humans, it only makes sense that we need a data type to represent the way humans interact with each other through language. In JavaScript (and in many other languages), this data type is called `string` as in **a string of characters.**
 
 ```javascript
 console.log('Hello');                                          // logs `'Hello'` to the console
@@ -155,7 +154,7 @@ console.log('Me and ' + 'you... ' + 'your mama and your cousin too.') // logs `'
 
 ## Undefined
 
-**`undefined` is a type with exactly one value: `undefined`. The `undefined` value signifies that there is something here, but we do not presently know what it is**.
+**`undefined` is a type with exactly one value: `undefined`. The `undefined` value signifies that there is something here, but we do not presently know what it is.**.
 
 `undefined` is like that currently-unoccupied storefront with a lease sign out in front of it downtown: there's something there, but we don't know what it actually is at this point in time.
 
@@ -181,19 +180,33 @@ console.log(null === undefined); // logs `false` to the console
 console.log(null === 'null');    // logs `false` to the console
 ```
 
+The difference between `undefined` and `null` in JavaScript can be subtle, especially for newcomers to the language. One way to think about these two flavors of nothing is that `undefined` is when something is unintentionally or passively nothing; `null` is reserved for things that are explicitly and intentionally nothing. For example, look at this code:
+
+```js
+let notAssigned;
+```
+
+The value of `notAssigned` is `undefined`. We didn't assign any value to the variable, so it defaults to the passive version of nothing: `undefined`. In order for a variable to become `null` it must be actively set to `null`:
+
+```js
+let explicitNothing = null;
+```
+
+We will revisit this when we discuss variables in an upcoming section.
+
 ## Object
 
-In JavaScript, values of the `object` type are a big and rather complicated deal. Values of the `object` type can (for the most part) be recognized by their opening and closing curly braces: `{}`. They are fundamentally different from the other data types we have seen thus far, to a large degree because every value of the `object` type, even if it looks the same, is in fact a unique value, thus:
+In JavaScript, values of the `object` type are a big deal, and rather complicated. Values of the `object` type can (for the most part) be recognized by their opening and closing curly braces: `{}`. They are fundamentally different from the other data types we have seen thus far, to a large degree because every value of the `object` type, even if it looks the same, is in fact a unique value, thus:
 
 ```javascript
 console.log({} === {}); // logs `false` to the console since every value of the type `object` is distinct and unique
 ```
 
-It turns out that functions are in fact values of the `object` type, as are arrays, sets, and maps (which we have not talked about at all yet). We will not, at this present time, be covering values of the `object` type in any further detail, though later in this content we will talk about **arrays** which are a certain kind of object, and, you can rest assured you will learn a *ton* about objects in your pursuit of programming greatness.
+It turns out that functions are in fact values of the `object` type, as are arrays, sets, and maps (which we have not talked about at all yet). We will not, at this present time, be covering values of the `object` type in any further detail, though later in this content we will talk about **arrays** which are a certain kind of object, and, you can rest assured you will learn a *ton* about objects in your pursuit of programming greatness. They are so common and important that we felt they **had** to be *mentioned*, even though this article does not set out to illuminate their use.
 
 ## Symbol
 
-Symbols were added to the JavaScript language in 2015 largely as a way to add new features to the language without potentially breaking already existing code. There are advanced use cases for them that require a master understanding of objects. We will not cover symbols here, and you will in fact be hard-pressed to find programmers who can talk about them reasonably.
+Symbols were added to the JavaScript language in 2015 largely as a way to add new features to the language without potentially breaking already existing code. There are advanced use cases for them that require a master understanding of objects. We will not cover symbols here, and you will in fact be hard-pressed to find programmers who can talk about them reasonably. Unlike objects, Symbols are not (yet) in wide use.
 
 ## Conclusion
 

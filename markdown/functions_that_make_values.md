@@ -1,6 +1,6 @@
 # Functions that Make Values
 
-As discussed earlier, while all functions **do** something, calling functions can also result in that funciton **making** something new.
+As discussed earlier, while all functions **do** something, calling functions can also result in that function **making** something new.
 
 ## Objectives
 
@@ -30,11 +30,13 @@ console.log(typeof(null));                // logs `'null'` to the console
 
 **In JavaScript, all functions return a new value when called. When programmers create functions that they don't intend to return a new value, that function will return `undefined`. Returned values, like any value, can be passed into functions.**
 
-One such function that is not intended to return a new value is `console.log`, however, since **every function call in JavaScript returns a value**, we should not be surpised to see that `console.log` returns `undefined`. Here we call `console.log`, passing its newly created return value into `console.log`.
+One such function that is not intended to return a new value is `console.log`, however, since **every function call in JavaScript returns a value**, we should not be surprised to see that `console.log` returns `undefined`. Here we call `console.log`, passing its newly created return value into `console.log`.
 
 ```javascript
 console.log(console.log()) // logs `'undefined'` to the console
 ```
+
+> Once again, `undefined` is being returned as the 'passive' version of nothing. Functions that are never meant to return a value always return `undefined`. Functions that DO create values may in some cases EXPLICITLY return nothing, in which case they would return `null`.
 
 ## A Few Built In Functions Returning New Values
 
@@ -50,6 +52,8 @@ console.log(String(undefined)); // logs `'undefined'` (as a string) to the conso
 ```
 
 :question: What will each of the following lines of code log to the console? Why?
+
+> Always make a prediction before you run the code -- you will learn much more quickly by making a prediction and getting feedback from the computer program than you will by passively evaluating the results only after running the code.
 
 ```javascript
 console.log(String(1234));
@@ -70,6 +74,8 @@ console.log(Math.min(2, 5, 8, 1, 3)); // logs `1` to the console
 ```
 
 :question: What will each of the following lines of code log to the console? Why?
+
+> Remember to predict first, THEN run the code.
 
 ```javascript
 console.log(Math.max(8, 7, 9) === 9);

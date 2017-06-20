@@ -91,7 +91,7 @@ console.log(letters.length);            // logs `2` to the console
 
 ## Array Variables are Labels, Not Boxes With Labels
 
-Recall from earlier the claim that assigning values (that are not of the `object` type) is like adding them to a box with the variable name being the label on the box. Also remember that when we assign a variable value to another variable, that in our analogy, we now have two different boxes each with different labes and distince values. Thus, as a reminder:
+Recall from earlier the claim that assigning values (that are not of the `object` type) is like adding them to a box with the variable name being the label on the box. Also remember that when we assign a variable value to another variable, that in our analogy, we now have two different boxes each with different labels and distinct values. Thus, as a reminder:
 
 ```javascript
 let a = 12;
@@ -119,6 +119,8 @@ sameNums.pop();
 console.log(nums.length);                   // logs `3` to the console
 
 console.log(nums === sameNums);             // logs `true` to the console
+console.log(nums);                          // logs `[1, 2, 3]` to the console
+console.log(sameNums);                      // logs `[1, 2, 3]` to the console
 
 let looksLikeNumsButIsnt = [1, 2, 3];
 console.log(looksLikeNumsButIsnt === nums); // logs `false` to the console
@@ -135,6 +137,8 @@ let reversedNums = nums.reverse();
 console.log(reversedNums[0]); // logs `5` to the console
 console.log(nums);            // logs `[5, 4, 3, 2, 1]` to the console
 ```
+
+> Note that calling `nums.reverse()` **changes** the value of `nums`, **and** returns an array with the items reversed. This is different from the behavior we saw with string methods like `toLowerCase()`.
 
 ## Array Method `join` and the String Method `split`
 
