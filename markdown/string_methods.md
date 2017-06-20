@@ -1,6 +1,6 @@
 # String Methods
 
-**Values in JavaScript, depending on their type, have available to them functions that can be called directly on the value itself.** These functions, called directly on a value, are called **methods**, and in this section we will investigate several of the built in **methods** available on values of the `string` type.
+**Values in JavaScript, depending on their type, have functions that can be called directly on the value itself.** These functions, called directly on a value, are called **methods**, and in this section we will investigate several of the built in **methods** available on values of the `string` type.
 
 ## Objectives
 
@@ -36,7 +36,10 @@ let goose = angryDriver.toLowerCase();
 let clownNose = goose.toUpperCase();
 
 console.log(angryDriver === clownNose); // logs `true` to the console
+console.log(angryDriver); // logs `HONK` to the console
 ```
+
+> It's worth noting that calling `angryDriver.toLowerCase()` did **not** change the value in angryDriver. The `toLowerCase` function returns a new value, leaving to original unmodified.
 
 ## String Methods: `startsWith`, `endsWith` and `includes`
 
@@ -49,6 +52,8 @@ console.log(name.startsWith('R')); // logs `true` to the console
 console.log(name.endsWith('n'));   // logs `true` to the console
 console.log(name.includes('o'));   // logs `true` to the console
 ```
+
+> Note that these function names give you a great idea of what they will do!
 
 ## String Methods: `indexOf` and `lastIndexOf`
 
@@ -93,7 +98,7 @@ console.log(phrase.substring(indexOfFirstP)); // logs `'practice'` to the consol
 
 ## Other String Methods
 
-There are a lot more methods for values of the `string` type and eventually you will want to familiarize yourself with all of them. It is not really worth the time practice and master all of them right away, however, a cursory study of what methods are even available to you will help you to solve problems on account of knowing what methods you have at your disposal.
+There are a lot more methods for values of the `string` type and eventually you will want to familiarize yourself with all of them. It is not really worth the time practice and master all of them right away. However, a cursory study of what methods are even available to you will help you to solve problems on account of knowing what methods you have at your disposal. In programming we frequently encounter problems that other programmers have encountered before -- for this reason, the built in libraries of JavaScript (and other languages) provide *a lot* of useful functions.
 
 In the opinion of this author (and many others) **the** source of truth for JavaScript language documentation in the *Mozilla Developer Network* or *MDN* for short. With that in mind, should you wish to familiarize yourself with all of the available methods for values of the `string` type, please refer to, as we say, [the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods_2).
 

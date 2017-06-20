@@ -8,16 +8,16 @@ By the time you complete this module you will be able to:
 - Understand what a function is
 - Use built in JavaScript functions
 - Use built in JavaScript functions to return values
-- Discuss the different kinds of JavaScript Types
+- Discuss the different kinds of JavaScript Data Types
 - Assign values, including values returned from functions, into variables
-- Use string methods
-- Create arrays and use array methods
+- Use built in string methods
+- Create arrays and use built in array methods
 - Create your own functions that define parameters and return values
 - Think about difficult programming challenges in terms of easy to think about functions
 
-Additionally, this modules contains two advanced resources should you wish to level up above and beyond the technical level requied for admissions which will set you up to be able to:
+Additionally, this modules contains two advanced resources should you wish to level up above and beyond the technical level required for admissions which will set you up to be able to:
 
-- Write higher order JavaScript functions
+- Write higher order functions in JavaScript
 - Master the use of the higher order array methods `forEach`, `map`, `filter`, and `reduce`
 
 ## Table of Contents
