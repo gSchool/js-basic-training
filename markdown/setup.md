@@ -1,6 +1,6 @@
 # Set Up
 
-Before working on the exercises in this repo you will need access to a text editor where you can write and run JavaScript.
+Before working on the exercises in this repo you will need access to a text editor where you can write and run JavaScript, and so we will currently turn our attention to defining what a text editor is, and introducing an excellent and easy to use online text editor.
 
 ## Objectives
 
