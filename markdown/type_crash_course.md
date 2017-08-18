@@ -1,6 +1,6 @@
 # A Crash Course in JavaScript Types
 
-In most programming languages, JavaScript amongst them, programmers have at their disposal different kinds (or **types**) of values that they can utilize in their programs.
+In most programming languages, JavaScript amongst them, programmers have at their disposal different kinds (or **types**) of values that they can utilize in their programs. In this section we will introduce the general idea that different types of things can be manipulated and interact in different ways, after which we will introduce several of the major JavaScript types, as well as some of the operations each of them allow.
 
 ## Objectives
 
@@ -59,7 +59,7 @@ In the real world we have different types of things to build with, and each of t
 - Object
 - Symbol
 
-Let's deal briefly with each of them in turn.
+Let's discuss briefly with each of them in turn what the type is meant to represent, and some simple ways we can interact with them as programmers.
 
 ## Number
 
@@ -73,8 +73,10 @@ console.log(42);                       // logs `42` to the console
 console.log(0);                        // logs `0` to the console
 console.log(-888);                     // logs `-888` to the console
 console.log(3.14156);                  // logs `3.14156` to the console
-console.log(Number.POSITIVE_INFINITY); // logs `Infinity` to the console
+console.log(Infinity);                 // logs `Infinity` to the console
 ```
+
+:star: In a text editor, write a 3 line program to log 3 different numbers to the developer console.
 
 ### Numerical Operators
 
@@ -95,6 +97,10 @@ console.log(10 * 8); // logs `80` to the console
 console.log(25 / 4); // logs `6.25` to the console
 console.log(16 % 3); // logs `1` to the console
 ```
+
+It is worth pointing out here, that in JavaScript, many expressions can be simplified, just like we are used to doing in math. Usually, when given a chance to simplify an expression, JavaScript will simplify it before moving on to other parts of the program. For each of the above then, the numerical expression is simplified (from being two numbers and a numerical operator), to be simply a single number, before JavaScript then proceeds to pass that simplified value into `console.log`.
+
+:star: Write a one line program that will log the product of `99`, `100`, and `101` to the console.
 
 ## Boolean
 
@@ -121,6 +127,19 @@ console.log(7 !== 7);        // logs `false` to the console
 console.log(7 !== 7);        // logs `false` to the console
 console.log(true === true);  // logs `true`
 console.log(true === false); // logs `false`
+```
+
+:star: Copy and paste the following code snippet into a text editor, and replace all of the `?`s with some other value so that each `console.log` prints `true`:
+
+```javascript
+console.log(4 === ?);
+console.log(4 !== ?);
+console.log(true === ?);
+console.log(true !== ?);
+console.log(3 * 4 === ?);
+console.log(? > 1000);
+console.log(? < -1000);
+console.log(-Infinity > ?);
 ```
 
 ## String
@@ -152,6 +171,14 @@ Interestingly, values of the `string` type can also use the `+` operator, but un
 console.log('Me and ' + 'you.')                                       // logs `'Me and you'` to the console
 console.log('Me and ' + 'you... ' + 'your mama and your cousin too.') // logs `'Me and you... your mama and your cousin too.'` to the console
 ```
+
+:star: Copy and paste the following code snippet into a text editor, and replace all of the `?`s with some other values so that the `console.log` prints `'This is a sentence.'`:
+
+```javascript
+console.log('This ' + 'is' + '?a?' + 'sentence?');
+```
+
+:sparkles: If you recall from the last section, `console.log` will print every argument passed to it, separated by a space. Can you write a `console.log` statement that does the same thing as the code above, passing in 4 arguments, and not using the `+` operator?
 
 ## Undefined
 
@@ -207,6 +234,23 @@ Before proceeding you should be able to:
 - Be able to identify values of the `number`, `string`, `boolean`, `undefined`, and `null` types
 - Be able to perform basic operations on values of the `number`, `string`, and `boolean` types
 
+## Self Assessment
+
+:question: How does `+` differ depending on what type of value is on either side of it?
+
+:star: Write a single line program that prints to the console whether or not `Infinity` is equal to `-Infinity`.
+
+:question: In your own words, what is the difference between `undefined` and `null`?
+
+:question: How many potential values are there in total amongst the `null`, `boolean` and `undefined` types?
+
+:star: You know that `+` behaves differently depending on whether or not values of type `number` or `string` are used with it. Play around in the text editor (using `console.log`) to help you investigate, what happens if you use a value of type `number` on one side and a value of type `string` on the other? What happens when you try to use other types of values with the `+` operator? How about the `-` operator?
+
+## Next Steps
+
+Already you are starting to develop a vocabulary for the most basic building blocks of JavaScript programs. Just like with any language, familiarizing yourself with its basic components, and eventually becoming fluent in their use, will allow you the possibility to write fluently in the language itself.
+
+Having exposure now to values of different types and how to perform basic operations on them, we can now return to our discussion of calling functions, with the ability to do a little more than before.
 
 ## Table of Contents
 
