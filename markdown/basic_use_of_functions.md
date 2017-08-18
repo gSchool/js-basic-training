@@ -36,6 +36,14 @@ drink();
 
 > It is worth noting that each of these function calls end with a semicolon `;`. You can think of semicolons in JavaScript as the equivalent to periods in English: they are intended to signify the end of "a sentence". These semicolons are in fact optional, and there are some rather obscure reasons why you might or might not choose to use them which frankly aren't really worth getting into. Rather than describe all the specifics of how to use them, we will include them throughout our code here and you will learn via immersion when and how to use them in your own code, which you should do until a much later period of time when you understand the implications of not using them.
 
+:speak_no_evil: Using **call**, **function**, and **invoke**, read the following lines of code out loud:
+
+```javascript
+listen();
+read();
+practice();
+```
+
 Previously we have talked about "giving functions things to affect their behavior", but the actual term for the "thing we give" a function is an **argument**, which we **pass** to a function.
 
 Thus the following statements are all true about the next block of code. Fluency with the technical jargon often results in leaving out some of the terms altogether:
@@ -52,13 +60,21 @@ cleanUp();
 - Here we call `drink` with `coffee` and then with `tea`
 - We are not calling `cleanUp` with anything
 
+:speak_no_evil: Using **call**, **function**, **invoke**, **pass**, and **argument** read the following lines of code out loud:
+
+```javascript
+listen(friend);
+read(linesOfCode);
+practice(communicating, coding);
+```
+
 ## Calling Already Defined Functions
 
 **In order to call a function (assuming it has been defined), add opening and closing parenthesis `()` to its name or definition (more on definitions later). If you wish to pass in any arguments, put them inside the parenthesis, separating them by a comma `,` if there are more than one.**
 
 We have already seen this a number of times, but now you have a formal definition.
 
-To explore this we will call some functions that are already defined for us any place where me might run JavaScript code. These functions are called **built-in** functions, of which there are many.
+To explore this we will call some functions that are already defined for us any place where me might run JavaScript code. These functions are called **built in** functions, of which there are many.
 
 The first built in function we will explore is called `console.log`, which takes any number of arguments, and prints them all to the developer console, separated by a space. Here we will call `console.log`, passing it a single argument, the number `1`:
 
@@ -72,7 +88,7 @@ If we pass in more than one argument, `console.log` will print them all to the c
 console.log(1, 2, 3); // Calling this will result in `1 2 3` being logged to the developer console
 ```
 
-Admittedly, passing numbers into `console.log` is not going to take us very far, but before we can go into more interesting territory, we need to learn more about what it means to pass in something that we consider a *number*, which leads to a discussion of JavaScript types. Up next is A [Crash Course in JavaScript Types](type_crash_course.md), after which we will return to more on the topic of calling functions.
+Admittedly, passing numbers into `console.log` is not going to take us very far, but before we can go into more interesting territory, we need to learn more about what it means to pass in something that we consider a *number*.
 
 ## Conclusion
 
@@ -83,6 +99,14 @@ Before moving on to the next section make sure that you can:
 - Speak accurately about **calling** and **invoking** functions
 - Speak accurately about **passing** functions **arguments**
 - Be able to **call** a function and pass it **arguments**
+
+## Self Assessment
+
+:star: In a text editor, call `console.log` by passing it exactly 3 numerical arguments.
+
+## Next Steps
+
+In order to use functions in more ways than simply passing in a number, we now move to a discussion of JavaScript types with a [Crash Course in JavaScript Types](type_crash_course.md), after which we will return to more on the topic of calling functions.
 
 ## Table of Contents
 
