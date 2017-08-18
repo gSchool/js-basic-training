@@ -31,7 +31,7 @@ So, what is going on behind that web page you're looking at through your browser
 - The server, depending on the information in the request, builds up and sends back a **response** to the client (the web browser on your computer in this example). This initial response tends to be an HTML page.
   - Most likely the server also interacts with other programs to store information from the request, retrieve information to be sent back in the response, log information about what is happening, and send information to other programs for analysis.
 - When the web browser receives the response back from the server, most likely containing HTML, it renders this HTML onto the screen.
-- In reading this HTML the browser most likely will find that it also needs other assets like images, stylesheets and JavaScript files. The browser then sends additional requests to the server for these additional resources, and upon receiving them in responses, renders them onto the screen.
+- In reading this HTML the browser most likely will find that it also needs other assets like images, style sheets and JavaScript files. The browser then sends additional requests to the server for these additional resources, and upon receiving them in responses, renders them onto the screen.
 
 ## Where JavaScript Fits In
 
@@ -52,6 +52,14 @@ For a long time, and to some degree this still holds true, JavaScript was viewed
 These days JavaScript is used extensively (though by no means uniquely) as a server side language as well as for standalone desktop applications, and even *native* programs that run inside devices like smartphones and tablets.
 
 Given its ubiquity in the web development landscape, its ability to give programmers access to programming on the full application stack, and its relatively easy (at first) learning curve, JavaScript is an excellent choice as a first language for deep study as a prospective web developer.
+
+## The JavaScript Renaissance
+
+In spite of the fact that JavaScript was created in 10 days (by [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich)) and contained many qualities that demonstrated its being written in haste, its wide adoption made it very difficult to change since any significant changes to way the language worked threatened to break already existing web pages. And do, until recently, only very incremental changes have been made to the language.
+
+JavaScript has a long history of not running exactly in the same way in various browsers, since browsers, created and maintained by different organizations, might take liberties in how they run JavaScript, in spite of a neutral body of standards intended to define the language. In years recent, developers have started to utilize a tool called a **transpiler**, which takes some version of JavaScript code that a browser may not understand exactly how to run, and **transpile** it into some older version of the JavaScript language that is more commonly agreed upon.
+
+In this way, developers found that they were able to start utilizing some proposed improvements to the language in their own code, *before the browsers were ready to support them.* In spite of the overhead of running a transpiler, developers loved being able to use the newest language features "pre-release," and got to thinking there might be more to get out of this pattern. In the last several years, many extensions to JavaScript have been made available to developers via transpiling, and the language is now experiencing something of a renaissance, allowing JavaScript developers to program using a language more akin to their desires, less encumbered by the slow, disjointed process, of new language features being standardized and adopted consistently by the browsers.
 
 ## Table of Contents
 
