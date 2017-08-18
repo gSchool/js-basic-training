@@ -37,7 +37,7 @@ console.log(resultOfCallingDoNothing); // logs `undefined` to the console
 function doNothing () {}
 ```
 
-Technically, function defintions are values of the `object` type, but in a way that is both helpful and confusing, will return that they are of the type `'function'`, which is not technically a JavaScript type at all:
+Technically, function definitions are values of the `object` type, but in a way that is both helpful and confusing, will return that they are of the type `'function'`, which is not technically a JavaScript type at all:
 
 ```javascript
 console.log(function() {}); // logs `'function'` to the console
@@ -64,9 +64,9 @@ console.log(typeof(doNothing));   // logs `function` to the console
 console.log(typeof(doNothing())); // logs `undefined` to the console
 ```
 
-## Function Defintions vs. Function Calls
+## Function Definitions vs. Function Calls
 
-**It is of the utmost importance to always be able to distinguish between function defintions and function calls (or invocations). Whenever a function is called it results in whatever value the function returns. A function defintion on the other hand, is a value unto itself.**
+**It is of the utmost importance to always be able to distinguish between function definitions and function calls (or invocations). Whenever a function is called it results in whatever value the function returns. A function definition on the other hand, is a value unto itself.**
 
 Consider the following:
 
@@ -81,7 +81,7 @@ console.log(doNothing === doNothing()); // logs `false` to the console
 
 ## Returning Values From Functions
 
-As you are well aware from using built in functions, many functions define values other than `undefined`. When writing our own function defintions we can return whatever value we might like by using, somewhere in the **body** of the defintion, the `return` keyword, followed by the value we with to return. The **body** of a function defintion is the part in between the curly braces, and, is a collection of any JavaScript code:
+As you are well aware from using built in functions, many functions define values other than `undefined`. When writing our own function definitions we can return whatever value we might like by using, somewhere in the **body** of the definition, the `return` keyword, followed by the value we with to return. The **body** of a function definition is the part in between the curly braces, and, is a collection of any JavaScript code:
 
 ```javascript
 function makeOne() {
@@ -93,7 +93,7 @@ console.log(typeof(makeOne())); // logs `'number'` to the console
 console.log(makeOne());         // logs `1` to the console
 ```
 
-Commonly, the `return` statment is a result of some more sophisticated operations:
+Commonly, the `return` statement is a result of some more sophisticated operations:
 
 ```javascript
 function getRemainderOfSeventyDividedByNine() {

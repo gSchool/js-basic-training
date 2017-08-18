@@ -127,7 +127,7 @@ console.log(true === false); // logs `false`
 
 **Values of the `string` type are intended to represent text values that should be read or spoken by humans. Values of the `string` type are always surrounded by either single quotes `''`, double quotes `""`, or backticks ``.**
 
-Given that our programs so frequently interact with humans, it only makes sense that we need a data type to represent the way humans interact with each other through language. In JavaScript (and in many other languges), this data type is called `string` as in **a string of characters.**
+Given that our programs so frequently interact with humans, it only makes sense that we need a data type to represent the way humans interact with each other through language. In JavaScript (and in many other languages), this data type is called `string` as in **a string of characters.**
 
 ```javascript
 console.log('Hello');                                          // logs `'Hello'` to the console
