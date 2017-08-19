@@ -104,6 +104,45 @@ Before proceeding you should be comfortable with the ideas that:
 - Functions can also be given things that affect what they do
 - Functions can be reused
 
+## Self Assessment
+
+:question: Which of the following functions appear to be **making** something?
+
+```javascript
+wait();
+think();
+let code = writeCode();
+```
+
+:question: Which of the following functions are being **given something** to affect how it runs?
+
+```javascript
+grow();
+talkTo(friends);
+workOnTasks('hack', 'read', 'cook', 'exercise');
+sleep();
+```
+
+:question: Which of the following functions are being reused?
+
+```javascript
+wakeUp();
+let coffee = brewCoffee();
+drink(coffee);
+
+eatBreakfast();
+cleanUp();
+
+let money = goToWork();
+let beer = buyBeer(money) // Here we use the money we made earlier to "make" some beer for our program
+
+drink(beer);              // Here we use the drink function again, but this time with the beer we got
+```
+
+## Next Steps
+
+Now that you have a high level understanding that functions are the verbs of our programs, it's time to start looking at the specifics of how to use them.
+
 ## Table of Contents
 
 ### Basic Training Materials
