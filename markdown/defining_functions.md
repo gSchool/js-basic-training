@@ -12,13 +12,18 @@ By the end of this section you should be able to:
 
 ## Function Definition Syntax
 
-In JavaScript there are three ways to define a function. The first is called a **function declaration** and follows the following format:
+Up until this point we have only called functions that were pre-defined by the JavaScript language. After many digressions, we are now ready to define our own functions, utilizing all (and more) of the JavaScript language features that we have thus far covered.
+
+In JavaScript there are three ways to define a function. With time each of these will become very familiar. For now, just consider this survey of all 3 an introduction, and focus on memorizing the syntax for the first.
+
+The first is called a **function declaration** and follows the following format:
 
 - Use the `function` keyword
 - ... followed by the name of the function
 - ... followed by opening and closing parenthesis `()`
 - ... followed by opening and closing curly braces `{}`
 
+:speak_no_evil: Say out loud, 3 times, the 4 aspects (as described just above) of defining a function with a **function declaration**.
 As you already know, after a function has been defined, it can be called with its name followed by parenthesis `()`. Recall that every function returns `undefined` unless specified to return some other value, therefore:
 
 ```javascript
@@ -28,7 +33,7 @@ let resultOfCallingDoNothing = doNothing();
 console.log(resultOfCallingDoNothing); // logs `undefined` to the console
 ```
 
-When we follow use **function declarations**, the functions are available for being called anywhere in the file that they were defined, no matter what part of the file they were defined in. This mechanism of making the function available to us in parts of a file that appear before the definition itself is called `hoisting` and regarding function definitions, is only done when using function declarations. Because of hoisting the following code works just fine:
+When we use **function declarations**, the functions are available for being called anywhere in the file that they were defined, no matter what part of the file they were defined in. This mechanism of making the function available to us in parts of a file that appear before the definition itself is called `hoisting` and regarding function definitions, is only done when using function declarations, the form of defining a function just described. Because of the quality of function declarations being hoisted, the following code works just fine:
 
 ```javascript
 let resultOfCallingDoNothing = doNothing();
@@ -37,15 +42,15 @@ console.log(resultOfCallingDoNothing); // logs `undefined` to the console
 function doNothing () {}
 ```
 
-Technically, function definitions are values of the `object` type, but in a way that is both helpful and confusing, will return that they are of the type `'function'`, which is not technically a JavaScript type at all:
+Technically, function definitions are values of the `object` type, but in a way that is both helpful and confusing, will return that they are of the type `'function'` when passed to the `typeof` function, which is not technically a JavaScript type at all:
 
 ```javascript
-console.log(function() {}); // logs `'function'` to the console
+console.log(typeof(function someFunctionDefinition() {})); // logs `'function'` to the console
 ```
 
 ## Function Expression Syntax
 
-A second way we can define functions is to use a **function expression** which occurs when we assign a function definition to a variable. Function expressions are not hoisted like function declarations, and also, we use the variable that the function definition is assigned to in order to make the function call:
+A second way we can define functions is to use a **function expression** which occurs when we assign a function definition to a variable. Function expressions are not hoisted like function declarations, and also, we use the variable name that the function definition is assigned to in order to make the function call:
 
 ```javascript
 let doNothing = function() {};
@@ -55,7 +60,7 @@ console.log(doNothing()); // logs `undefined` to the console
 
 ## Arrow Function Expression Syntax
 
-A third way we can define functions is using the arrow function expression syntax. This method of defining a function also assigns the function defintion to a variable, and, does not involve hoisting. It is more terse than the other ways of defining functions, and has some subtle differences which we will explore at a later time:
+A third way we can define functions is using the arrow function expression syntax. This method of defining a function also assigns the function definition to a variable, and, does not involve hoisting. Arrow function expressions are more terse than the other ways of defining functions, and has some subtle differences which you will explore at a later time. Arrow function expressions are a newer addition do the JavaScript language, and in some situations, are incredible advantageous:
 
 ```javascript
 let doNothing = () => {}
@@ -64,9 +69,9 @@ console.log(typeof(doNothing));   // logs `function` to the console
 console.log(typeof(doNothing())); // logs `undefined` to the console
 ```
 
-## Function Definitions vs. Function Calls
+## Function Definitions vs. Function Calls / Invocations
 
-**It is of the utmost importance to always be able to distinguish between function definitions and function calls (or invocations). Whenever a function is called it results in whatever value the function returns. A function definition on the other hand, is a value unto itself.**
+**It is of the utmost importance to always be able to distinguish between function definitions and function calls (or invocations). Whenever a function is called it results in whatever value the function being called returns. A function definition on the other hand, is a value unto itself, which needs no further evaluation.**
 
 Consider the following:
 
@@ -79,9 +84,11 @@ console.log(typeof(doNothing()));       // logs `undefined` to the console
 console.log(doNothing === doNothing()); // logs `false` to the console
 ```
 
+:question: In as much detail as you are able, what is the difference between `doNothing` and `doNothing()` above?
+
 ## Returning Values From Functions
 
-As you are well aware from using built in functions, many functions define values other than `undefined`. When writing our own function definitions we can return whatever value we might like by using, somewhere in the **body** of the definition, the `return` keyword, followed by the value we with to return. The **body** of a function definition is the part in between the curly braces, and, is a collection of any JavaScript code:
+As you are well aware from using built in functions, many functions define values other than `undefined`. When writing our own function definitions we can return whatever value we might like by using, somewhere in the **body** of the definition, the `return` keyword, followed by the value we with to return. The **body** of a function definition is the part in between the curly braces, and, is a collection of any JavaScript code. While this description is rather innocuous, a full understanding of it unlocks incredible possibilities in your ability to write functions that can do anything you are able to imagine doing in JavaScript:
 
 ```javascript
 function makeOne() {
