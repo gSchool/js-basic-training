@@ -101,7 +101,7 @@ Before continuing, be sure that you can:
 
 :star: Write a one line program that converts both a number and a boolean to a string, and then logs to the console which is greater than the other.
 
-:sparkle: Find out why your program just written behaves in the way that it does.
+:star2: Find out why your program just written behaves in the way that it does.
 
 ## Next Steps
 
