@@ -110,12 +110,12 @@ The two values of the `boolean` type (`true` and `false`) are often created by u
 
 ### Comparison Operators
 
-- `>` creates a new value of the `boolean` type depending on whether to value to the left of the operator is greater than that to the right
-- `<` creates a new value of the `boolean` type depending on whether to value to the left of the operator is less than that to the right
-- `>=` creates a new value of the `boolean` type depending on whether to value to the left of the operator is greater than or equal to that to the right
-- `<=` creates a new value of the `boolean` type depending on whether to value to the left of the operator is less than or equal to that to the right
-- `===` creates a new value of the `boolean` type depending on whether to value to the left of the operator is the same as that to the right
-- `!==` creates a new value of the `boolean` type depending on whether to value to the left of the operator is not the same as that to the right
+- `>` creates a new value of the `boolean` type depending on whether the value to the left of the operator is greater than that to the right
+- `<` creates a new value of the `boolean` type depending on whether the value to the left of the operator is less than that to the right
+- `>=` creates a new value of the `boolean` type depending on whether the value to the left of the operator is greater than or equal to that to the right
+- `<=` creates a new value of the `boolean` type depending on whether the value to the left of the operator is less than or equal to that to the right
+- `===` creates a new value of the `boolean` type depending on whether the value to the left of the operator is the same as that to the right
+- `!==` creates a new value of the `boolean` type depending on whether the value to the left of the operator is not the same as that to the right
 
 ```javascript
 console.log(1 > 2);          // logs `false` to the console
@@ -139,7 +139,7 @@ console.log(true !== ?);
 console.log(3 * 4 === ?);
 console.log(? > 1000);
 console.log(? < -1000);
-console.log(-Infinity > ?);
+console.log(-Infinity < ?);
 ```
 
 ## String
