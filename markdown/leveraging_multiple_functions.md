@@ -43,7 +43,7 @@ function makeIntoWords(sentence) {
 }
 ```
 
-Already we see that familiarity with built in methods will serve me in making the functions I need. Let's continue now in making the `getSecondWordFrom` function:
+Already we see that familiarity with built in methods will serve us in making the functions I need. Let's continue now in making the `getSecondWordFrom` function:
 
 ```javascript
 function getSecondWordFrom(words) {
@@ -114,11 +114,11 @@ function hasLetter(word, letter) {
 
 It may seem at a first glance that this methodology for writing functions was more effort than it was worth, but there are several very important reasons why it is a good idea to write code in this manner when it is possible:
 
-- As a programmer, I never had to think about more than 1 thing at a time, and each thought was not much more than coming up with an accurate sentence to reflect what I wanted to do
-- As the code base grew, I continued only to have to think about one relatively small thing at a time
-- I know have a code base where the action part of the program (at the top where we call functions) reads like English and is very clear about what we are doing
+- As programmers, we never had to think about more than 1 thing at a time, and each thought was not much more than coming up with an accurate sentence to reflect what we wanted to do
+- Even as the code base grew, we continued only to have to think about one relatively small thing at a time
+- We now have a code base where the action part of the program (at the top where we call functions) reads like English and is very clear about what it is doing
 - Future developers can find out what the program is doing at a glance, and can dig into details as they wish
-- It will be easy to know where to look for details given how each function is so small
+- It will be easy to know where to look for details about the program given how each function is so small
 - It will be more likely that we can reuse these functions since they each only do one small thing well
 
 ## Conclusion
@@ -129,6 +129,16 @@ Before continuing, be sure that you can:
 
 - Attempt solving complicated problems by writing fantasy functions to solve them
 - Break fantasy functions into smaller fantasy functions until you are able to use simple operators or built in functions
+
+## Self Assessment
+
+:star: Imagine that you would like to throw a party, but have never thrown a party before. In plain English, break "throw a party" into constituent steps, and continue breaking those steps into even smaller steps, as necessary, until you arrive at steps that are simple, and that you fill confident you know how to do.
+
+## Next Steps
+
+You now have a very powerful technique at your disposal: breaking complicated problems down into smaller problems that you already know how to solve. Additionally you have a growing "vocabulary" of build in JavaScript functions, methods, and operators that are growing the size of "problems you already know how to solve."
+
+You should continue to add "problems you already know how to solve" to your repertoire. The best way to do this is to solve more problems, and review other people's solutions to problems. Up next is a strategy guide for how to go about doing just that.
 
 ## Table of Contents
 
