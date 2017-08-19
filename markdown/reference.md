@@ -17,8 +17,8 @@ The following documentation is potentially dense, but thorough and accurate:
 
 Seeing as you'll need to put these techniques into practice, and, there is an internet full of problems to solve, here are a couple recommended sites to get your skills up with practice:
 
-- [CoderByte](https://coderbyte.com/challenges/)
 - [CodeWars](https://www.codewars.com/users/sign_in)
+- [CoderByte](https://coderbyte.com/challenges/)
 - [Leetcode](https://leetcode.com/problemset/algorithms/)
 
 ## Table of Contents
