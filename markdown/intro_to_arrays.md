@@ -6,15 +6,15 @@
 
 By the time you complete this section you should be able to:
 
-- Create arrays
-- Get the length of an array
-- Access an element of an array at a given index
-- Say some meaningful things about how assigning arrays to variables is different than assigning strings to variables
-- Use several basic array methods
+- Create **arrays**
+- Get the length of an **array**
+- Access an element of an **array** at a given index
+- Say some meaningful things about how assigning **arrays** to variables is different than assigning strings to variables
+- Use several basic **array** methods
 
 ## Creating Arrays
 
-Technically, arrays are a value of the `object` type. The most common way to create an array is with the square brackets (`[]`), placing values of any time inside of the brackets, separated by a comma. The values inside of an array are called **elements**. Every array has a special **property** called `length`, which, much like a method, can be accessed using dot notation on the array value itself. The `length` property will return a new value of the `number` type which is the number of **elements** in the array.
+Technically, **arrays** are a value of the `object` type (the implications of this we will largely avoid for the time being). The most common way to create an array is with the square brackets (`[]`), placing values of any type inside of the brackets, separated by a comma. The values inside of an array are called **elements**. Every array has a special **property** called `length`, which, much like a method, can be accessed using dot notation on the array value itself. The `length` property will return a new value of the `number` type which is the number of **elements** in the array.
 
 Here we create an array of letters, where each **element** is a value of the `string` type, and then access its `length` property:
 
@@ -62,6 +62,16 @@ console.log(vowels.length === booleans.length);  // logs `false` to the console
 console.log(collections.length === nums.length); // logs `true` to the console
 ```
 
+:star: Copy and paste the following snippet into a text editor and modify `collection` so that both of the `console.log`s return `true` (you might have to investigate what the index is for a character that is not inside a string):
+
+```javascript
+let word = 'code';
+let collection = [];
+
+console.log(collection.length === word.length);
+console.log(collection[2] === word.indexOf('a'));
+```
+
 ## Array Methods: `push` and `pop`
 
 Arrays, just like strings, have a set of **methods** that can be used directly on array values. The `push` method adds the value passed into it to the end of the array that it was called on:
@@ -89,7 +99,7 @@ let secondToLastLetter = letters.pop(); // logs `'y'` to the console
 console.log(letters.length);            // logs `2` to the console
 ```
 
-## Array Variables are Labels, Not Boxes With Labels
+## Array Variables are Labels, Not Boxes With Labels (advanced)
 
 Recall from earlier the claim that assigning values (that are not of the `object` type) is like adding them to a box with the variable name being the label on the box. Also remember that when we assign a variable value to another variable, that in our analogy, we now have two different boxes each with different labels and distinct values. Thus, as a reminder:
 
@@ -201,8 +211,6 @@ There are a wealth of methods available on arrays, and while you should not take
 
 Arrays are ordered sequences of elements which can be accessed by their indexes and which come with a wealthy selection of methods. Arrays (as values of the `object` type) act differently than primitive values like strings and booleans when assigned to variables, since arrays are, even when they look identical, in fact unique values, every one.
 
-Now that we have completed the digression into string methods, arrays, and array methods, we are ready to return to our discussion of function, now learning how to create our own custom function definitions.
-
 Before continuing be sure that you can:
 
 - Create arrays
@@ -210,6 +218,23 @@ Before continuing be sure that you can:
 - Access an element of an array at a given index
 - Say some meaningful things about how assigning arrays to variables is different than assigning strings to variables
 - Use several basic array methods
+
+## Self Assessment
+
+:star: Copy and paste the following into a text editor. Use string and array methods as necessary to make the `console.log`s return `true`:
+
+```javascript
+let order = 'Now!';
+let question = 'Now?';
+
+console.log(order.endsWith('.'));
+console.log(question.endsWith('.'));
+console.log(order === question);
+```
+
+## Next Steps
+
+Now that we have completed the digression into string methods, arrays, and array methods, your vocabulary around fundamental JavaScript language features is growing, and you're closer to being able to solve any number of programming challenges. Now we are ready to return to our discussion of functions, learning how to create our own custom function definitions, which can utilize any (and more) of the language features we have thus far covered.
 
 ## Table of Contents
 
