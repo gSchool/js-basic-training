@@ -91,7 +91,7 @@ console.log(letters.length);            // logs `2` to the console
 
 ## Array Variables are Labels, Not Boxes With Labels
 
-Recall from earlier the claim that assigning values (that are not of the `object` type) is like adding them to a box with the variable name being the label on the box. Also remember that when we assign a variable value to another variable, that in our analogy, we now have two different boxes each with different labes and distince values. Thus, as a reminder:
+Recall from earlier the claim that assigning values (that are not of the `object` type) is like adding them to a box with the variable name being the label on the box. Also remember that when we assign a variable value to another variable, that in our analogy, we now have two different boxes each with different labels and distinct values. Thus, as a reminder:
 
 ```javascript
 let a = 12;
@@ -177,7 +177,7 @@ let reversedWord = reversedLetters.join('');
 console.log(reversedWord); // logs `edoc` to the console
 ```
 
-While we have been focusing very much on storing values in variables, recall that this is often a choice, and sometimes, rather than store every intermediate value in a variable, we may wish simply to perform multiple operations at a time. Here is the example from above in a more concise way. One way is not better than the other, there is simply a tradeoff between how concise vs. how legible the code is, and again, a sense of which is better will grow naturally with experience:
+While we have been focusing very much on storing values in variables, recall that this is often a choice, and sometimes, rather than store every intermediate value in a variable, we may wish simply to perform multiple operations at a time. Here is the example from above in a more concise way. One way is not better than the other, there is simply a trade off between how concise vs. how legible the code is, and again, a sense of which is better will grow naturally with experience:
 
 ```javascript
 let reversedCode = 'code'.split('').reverse().join('');
@@ -195,7 +195,7 @@ console.log(states); // logs `['CA', 'NY', 'OR']` to the console
 
 ## Many More Array Methods
 
-There are a wealth of methods available on arrays, and while you should not take the time presently to learn them all, knowing which tools you have at your disposal is helpful when considering how to approach a problem. With that in mind, check out [the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_2) focussing in particular for the time being on the more basic **Mutator** and **Accessor** methods.
+There are a wealth of methods available on arrays, and while you should not take the time presently to learn them all, knowing which tools you have at your disposal is helpful when considering how to approach a problem. With that in mind, check out [the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_2) focusing in particular for the time being on the more basic **Mutator** and **Accessor** methods.
 
 ## Summary
 
