@@ -99,6 +99,10 @@ Before continuing, be sure that you can:
 
 :speak_no_evil: Making sure to use terms like **return**, read the following lines of code out loud:
 
+```javascript
+console.log(String(console.log('Not undefined')) === 'undefined');
+```
+
 :star: Write a one line program that converts both a number and a boolean to a string, and then logs to the console which is greater than the other.
 
 :star2: Find out why your program just written behaves in the way that it does.
