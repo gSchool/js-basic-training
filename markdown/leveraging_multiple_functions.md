@@ -132,7 +132,7 @@ Before continuing, be sure that you can:
 
 ## Self Assessment
 
-:star: Imagine that you would like to throw a party, but have never thrown a party before. In plain English, break "throw a party" into constituent steps, and continue breaking those steps into even smaller steps, as necessary, until you arrive at steps that are simple, and that you fill confident you know how to do.
+:star: Imagine that you would like to throw a party, but have never thrown a party before. In plain English, break "throw a party" into constituent steps, and continue breaking those steps into even smaller steps, as necessary, until you arrive at steps that are simple, and that you feel confident you know how to do.
 
 ## Next Steps
 
