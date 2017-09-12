@@ -136,7 +136,7 @@ Before continuing, be sure that you can:
 
 ## Next Steps
 
-You now have a very powerful technique at your disposal: breaking complicated problems down into smaller problems that you already know how to solve. Additionally you have a growing "vocabulary" of build in JavaScript functions, methods, and operators that are growing the size of "problems you already know how to solve."
+You now have a very powerful technique at your disposal: breaking complicated problems down into smaller problems that you already know how to solve. Additionally you have a growing "vocabulary" of built in JavaScript functions, methods, and operators that are growing the size of "problems you already know how to solve."
 
 You should continue to add "problems you already know how to solve" to your repertoire. The best way to do this is to solve more problems, and review other people's solutions to problems. Up next is a strategy guide for how to go about doing just that.
 
