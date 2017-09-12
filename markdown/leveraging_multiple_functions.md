@@ -59,13 +59,13 @@ function hasLetter(word, letter) {
 }
 ```
 
-Putting it all together, we know have the following small program:
+Putting it all together, we now have the following small program:
 
 ```javascript
 function doesSecondWordHave(letter, sentence) {
-  let words = makeIntoWords(sentence);       // `makeIntoWords` does not yet exist
-  let secondWord = getSecondWordFrom(words); // `getSecondWordFrom` does not yet exist
-  return hasLetter(secondWord, letter);      // `hasLetter` does not yet exist
+  let words = makeIntoWords(sentence);
+  let secondWord = getSecondWordFrom(words);
+  return hasLetter(secondWord, letter);
 
   return hasLetter;
 }
@@ -92,9 +92,9 @@ let secondWordHasE = doesSecondWordHave('e', sentence);
 console.log(secondWordHasE); // logs `false` to the console
 
 function doesSecondWordHave(letter, sentence) {
-  let words = makeIntoWords(sentence);       // `makeIntoWords` does not yet exist
-  let secondWord = getSecondWordFrom(words); // `getSecondWordFrom` does not yet exist
-  return hasLetter(secondWord, letter);      // `hasLetter` does not yet exist
+  let words = makeIntoWords(sentence);
+  let secondWord = getSecondWordFrom(words);
+  return hasLetter(secondWord, letter);
 
   return hasLetter;
 }
