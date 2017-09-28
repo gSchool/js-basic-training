@@ -154,7 +154,6 @@ Now that you have a high level understanding that functions are the verbs of our
 - [Basic Use of Functions](basic_use_of_functions.md)
 - [JavaScript Types Crash Course](type_crash_course.md)
 - [Functions that Make Values](functions_that_make_values.md)
-- [JavaScript Types Crash Course](type_crash_course.md)
 - [Variables](variables.md)
 - [String Methods](string_methods.md)
 - [Introduction to Arrays](intro_to_arrays.md)
@@ -164,9 +163,9 @@ Now that you have a high level understanding that functions are the verbs of our
 
 ### Advanced Content
 
-  - [Passing Functions as Arguments](passing_functions_as_arguments.md)
-  - [Higher Order Array Methods](higher_order_array_methods.md)
+- [Passing Functions as Arguments](passing_functions_as_arguments.md)
+- [Higher Order Array Methods](higher_order_array_methods.md)
 
 ### Appendix
 
-    - [Reference and Further Study](reference.md)
+- [Reference and Further Study](reference.md)
