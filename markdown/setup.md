@@ -53,7 +53,6 @@ function printMessage(message) {
 - [Basic Use of Functions](basic_use_of_functions.md)
 - [JavaScript Types Crash Course](type_crash_course.md)
 - [Functions that Make Values](functions_that_make_values.md)
-- [JavaScript Types Crash Course](type_crash_course.md)
 - [Variables](variables.md)
 - [String Methods](string_methods.md)
 - [Introduction to Arrays](intro_to_arrays.md)
